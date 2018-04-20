@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, p, a {
+    font-family: 'roboto'
+}
+
+nav {
+    background-color: #232f3e;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px 0 30px;
+}
+
+nav > h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.genres {
+    background-color: rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(204, 204, 204);
+    height: 35px;
+}
+
+.content {
+    padding: 30px 40px 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content--col-left {
+    border: 1px solid gray;
+    width: 40%;
+    height: 630px;
+    margin-right: 20px;
+}
+
+.content--col-right {
+    border: 1px solid gray;
+    width: 60%;
+    height: 630px;
+}

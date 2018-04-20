@@ -33,8 +33,10 @@ const customerDB = {
         checkout: {
             enumerable: true,
             writable: false,
-            value: function() {
-
+            value: function(book) {
+                this.bookshelf.push(libDB[book]name);
+                libDB.book.checkedout = true;
+                libDB.book.dueDate = 
             }
         },
         return: {

@@ -188,3 +188,5 @@ const customerDB = {
 
     }),
 }
+
+console.log (customerDB)

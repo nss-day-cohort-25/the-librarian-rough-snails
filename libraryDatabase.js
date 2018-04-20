@@ -17,7 +17,7 @@ const libDB = {
             enumerable: true
         },
         checkedout: {
-            value: false,
+            value: "false",
             writeable: true,
             enumerable: true
         },
@@ -72,7 +72,7 @@ const libDB = {
                 enumerable: true
             },
             checkedout: {
-                value: false,
+                value: "false",
                 writeable: true,
                 enumerable: true
             },

@@ -2,7 +2,7 @@
 localStorage.setItem("Customer Database", JSON.stringify(customerDB))
 
 // Function to SAVE Library Database
-localStorage.setItem("Library Database", JSON.stringify(libraryDB))
+localStorage.setItem("Library Database", JSON.stringify(libDB))
 
 
 // Function to LOAD either database

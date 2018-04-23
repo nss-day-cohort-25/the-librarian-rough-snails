@@ -17,8 +17,8 @@ const libDB = {
             enumerable: true
         },
         checkedout: {
-            value: "false",
-            writeable: true,
+            value: false,
+            writable: true,
             enumerable: true
         },
         dueDate: {

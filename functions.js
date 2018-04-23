@@ -7,10 +7,10 @@ const getDueDate () => {
     if (dueday > 31 && month in [0, 2, 4, 6, 7, 9, 11]) {
         month += 1;
         dueday -= 31;
-    } elseif(dueday > 30 && month in [3, 5, 8, 10]) {
+    } else if(dueday > 30 && month in [3, 5, 8, 10]) {
         month += 1;
         dueday -= 30;
-    } elseif(dueday > 28 && month === 2) {
+    } else if(dueday > 28 && month === 2) {
         month += 1;
         dueday -= 28;
     }

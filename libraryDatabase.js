@@ -46,7 +46,7 @@ const libDB = {
         },
         checkedout: {
             value: false,
-            writeable: true,
+            writable: true,
             enumerable: true
         },
         dueDate: {
@@ -73,7 +73,7 @@ const libDB = {
             },
             checkedout: {
                 value: "false",
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -101,7 +101,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -129,7 +129,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -157,7 +157,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -185,7 +185,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -213,7 +213,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -241,7 +241,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {
@@ -269,7 +269,7 @@ const libDB = {
             },
             checkedout: {
                 value: false,
-                writeable: true,
+                writable: true,
                 enumerable: true
             },
             dueDate: {

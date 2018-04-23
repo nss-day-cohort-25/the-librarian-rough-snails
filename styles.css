@@ -35,15 +35,31 @@ body {
     align-items: center;
 }
 
-.content--col-left {
-    border: 1px solid gray;
+.col__left {
+    display: flex;
+    flex-direction: column;
     width: 40%;
     height: 630px;
     margin-right: 20px;
 }
 
-.content--col-right {
-    border: 1px solid gray;
+.col__left--libcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(182, 182, 182);
+    height: 300px;
+    margin-bottom: 20px
+}
+
+.col__left--bookshelf {
+    border: 1px solid rgb(182, 182, 182);
+    height: 630px;
+}
+
+.col__right {
+    border: 1px solid rgb(182, 182, 182);
     width: 60%;
     height: 630px;
 }

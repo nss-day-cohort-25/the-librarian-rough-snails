@@ -1,4 +1,4 @@
-const getDueDate () => {
+const getDueDate = () => {
     let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     let date = new Date();
     let month = date.getMonth();
@@ -22,25 +22,3 @@ const getDueDate () => {
     return dueDate;
 }
 
-
-//30 april june september november
-//31 january march may july august october dec
-//28 feb
-
-
-
-function getDate() {
-    let dayNames = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat']
-    let monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-    let date = new Date();
-
-    let dayOfWeek = date.getDay();
-    let month = date.getMonth();
-    let day = date.getDate();
-    let year = date.getFullYear();
-    let reviewDay = dayNames[dayOfWeek]
-    let reviewMonth = monthNames[month]
-    datePosted = reviewMonth + " " + day + ", " + year;
-
-    return datePosted;
-}

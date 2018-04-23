@@ -273,10 +273,6 @@ const libDB = {
             writable: true,
             enumerable: true
         },
-        dueDate: {
-            value: "",
-            enumerable: true,
-            writable: true
-        }
+
     }),
 }

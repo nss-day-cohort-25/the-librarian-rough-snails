@@ -21,6 +21,7 @@ const postBooks = (libDB) => {
                 card.appendChild(el)
             }
         }
+        // card.addEventListener('click', addToLibrary) // Need to add this function
         fragment.appendChild(card)
     }
     printCardsArea.appendChild(fragment)

@@ -35,9 +35,11 @@ const customerDB = {
             enumerable: true,
             writable: false,
             value: function(book) {
-                this.bookShelf.push(libDB[book]);
-                libDB[book].checkedout = true;
-                libDB[book].dueDate = getDueDate()
+                if (libDB[book].checkedout === false){
+                    this.bookShelf.push(libDB[book]);
+                    libDB[book].checkedout = true;
+                    libDB[book].dueDate = getDueDate()
+                }
             }
         },
         return: {
@@ -92,9 +94,11 @@ const customerDB = {
             enumerable: true,
             writable: false,
             value: function(book) {
-                this.bookShelf.push(libDB[book]);
-                libDB[book].checkedout = true;
-                libDB[book].dueDate = getDueDate()
+                if (libDB[book].checkedout === false){
+                    this.bookShelf.push(libDB[book]);
+                    libDB[book].checkedout = true;
+                    libDB[book].dueDate = getDueDate()
+                }
             }
         },
         return: {
@@ -149,9 +153,11 @@ const customerDB = {
             enumerable: true,
             writable: false,
             value: function(book) {
-                this.bookShelf.push(libDB[book]);
-                libDB[book].checkedout = true;
-                libDB[book].dueDate = getDueDate()
+                if (libDB[book].checkedout === false){
+                    this.bookShelf.push(libDB[book]);
+                    libDB[book].checkedout = true;
+                    libDB[book].dueDate = getDueDate()
+                }
             }
         },
         return: {
@@ -205,9 +211,11 @@ const customerDB = {
             enumerable: true,
             writable: false,
             value: function(book) {
-                this.bookShelf.push(libDB[book]);
-                libDB[book].checkedout = true;
-                libDB[book].dueDate = getDueDate()
+                if (libDB[book].checkedout === false){
+                    this.bookShelf.push(libDB[book]);
+                    libDB[book].checkedout = true;
+                    libDB[book].dueDate = getDueDate()
+                }
             }
         },
         return: {
